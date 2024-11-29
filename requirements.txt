@@ -3,5 +3,4 @@ pymongo
 uvicorn
 jinja2
 requests
-json
 ast
