@@ -3,4 +3,3 @@ pymongo
 uvicorn
 jinja2
 requests
-ast
