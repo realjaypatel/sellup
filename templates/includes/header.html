@@ -233,9 +233,9 @@
 	<!-- Search offcanvas -->
 	<div class="offcanvas offcanvas-top" id="searchBox" data-bs-backdrop="static" tabindex="-1">
 		<div class="offcanvas-header border-bottom p-0 py-lg-1">
-			<form class="container d-flex align-items-center">
+			<form class="container d-flex align-items-center" action="/explore" method="get">
 				<input type="search" class="form-control form-control-lg fs-lg border-0 rounded-0 py-3 ps-0"
-					placeholder="Search the products" data-autofocus="offcanvas">
+					placeholder="Search the products" data-autofocus="offcanvas" name="search">
 				<button type="reset" class="btn-close fs-lg" data-bs-dismiss="offcanvas" aria-label="Close"></button>
 			</form>
 		</div>
@@ -437,14 +437,14 @@
 						</li>
 						<li class="nav-item dropdown position-static py-lg-2 me-lg-n1 me-xl-0">
 							<a class="nav-link " href="#" role="button" data-bs-toggle="dropdown"
-								data-bs-trigger="hover" aria-expanded="false">Shop</a>
+								data-bs-trigger="hover" aria-expanded="false">Explore</a>
 						
 						</li>
-						<li class="nav-item dropdown py-lg-2 me-lg-n1 me-xl-0">
+						<!-- <li class="nav-item dropdown py-lg-2 me-lg-n1 me-xl-0">
 							<a class="nav-link " href="#" role="button" data-bs-toggle="dropdown"
 								data-bs-trigger="hover" data-bs-auto-close="outside" aria-expanded="false">Account</a>
 						
-						</li>
+						</li> -->
 						<li class="nav-item dropdown py-lg-2 me-lg-n1 me-xl-0">
 							<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
 								data-bs-trigger="hover" data-bs-auto-close="outside" aria-expanded="false">Categories</a>
@@ -458,7 +458,7 @@
 										<li><a class="dropdown-item" href="about-v2.html">IOS Application</a></li>
 									</ul>
 								</li>
-								<li class="dropend">
+								<!-- <li class="dropend">
 									<a class="dropdown-item dropdown-toggle" href="#!" role="button"
 										data-bs-toggle="dropdown" data-bs-trigger="hover" aria-expanded="false">Website</a>
 									<ul class="dropdown-menu">
@@ -468,15 +468,15 @@
 										<li><a class="dropdown-item" href="blog-single-v1.html">AI</a></li>
 										<li><a class="dropdown-item" href="blog-single-v2.html">Tech</a></li>
 									</ul>
-								</li>
+								</li> -->
 								
 							</ul>
 						</li>
 						<li class="nav-item py-lg-2 me-lg-n2 me-xl-0">
-							<a class="nav-link" href="docs/installation.html">Docs</a>
+							<a class="nav-link" href="docs/installation.html">List Your Startup</a>
 						</li>
 						<li class="nav-item py-lg-2 me-lg-n2 me-xl-0">
-							<a class="nav-link" href="docs/typography.html">Components</a>
+							<a class="nav-link" href="docs/typography.html">Contact Us</a>
 						</li>
 					</ul>
 				</div>
